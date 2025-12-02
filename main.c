@@ -274,7 +274,7 @@ void searchQuotes() {
 void addQuote() {
     printf("\n--- 3. Add New Quote ---\n");
     if (quote_count >= MAX_QUOTES) {
-        printf(">> [Error] Cannot add more quotes (Max %d entries).\n");
+        printf(">> [Error] Cannot add more quotes (Max %d entries).\n", MAX_QUOTES);
         return;
     }
 
